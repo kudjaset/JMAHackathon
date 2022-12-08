@@ -1,90 +1,23 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 12,
-    "Button2": 13,
-    "Button3": 14,
-    "Button4": 15,
-    "Button5": 16,
-    "Button6": 17,
-    "Home": 3,
-    "Icon1": 18,
-    "Icon2": 19,
-    "Image2": 11,
-    "Screen2": 4,
-    "Screen3": 5,
-    "Screen4": 6,
-    "Screen5": 7,
-    "Screen6": 8,
-    "Screen7": 9
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/08/2022 16:01:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "Fidelety": "11d3e86e-4356-403b-a2a0-6fbae0efd70c.png",
-    "Jma": "a35724df-e131-44fd-aa21-ccd50239069b.png",
-    "JMA_Background": "b8a82f2d-11c3-4df4-965b-4b53152387d6.png",
-    "JMA_Background_edit": "fbf7359b-dc51-4961-9425-9d3f0e579d4b.png",
-    "JMA_Background_edit_1": "b12608bb-05a9-41b3-9b9a-e971cc4a33f0.png"
-  },
-  "LocalResourceRootPaths": {
-    "Fidelety": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/d99f7625-80ee-4386-bb55-3184c9cac3e9.png?sv=2017-04-17&sr=b&sig=JX6Mx5d8cesB18BDsOaKJ01IKfLu5ohE3xscaRW9jvI%3D&spr=https&se=2022-12-09T15%3A34%3A29Z&sp=r",
-    "Jma": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/f3e2c396-a67c-4dca-ab7a-084268f93374.png?sv=2017-04-17&sr=b&sig=lfMyYNS5Xz8Imt%2FdYbkxMWCSaQT9q7tcfyDw1ohk4zw%3D&spr=https&se=2022-12-09T15%3A26%3A54Z&sp=r",
-    "JMA_Background": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/701bb7d7-fc14-4fda-8e22-9ea5faceb450.png?sv=2017-04-17&sr=b&sig=ikou3NrD58d1HyG4tOvsZiHbQ59%2FF1YLgfXfYurAhxE%3D&spr=https&se=2022-12-09T15%3A25%3A00Z&sp=r",
-    "JMA_Background_edit": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/3752a778-d98c-4e60-a7fb-26fb1768f6d4.png?sv=2017-04-17&sr=b&sig=bqL7C5y3Kn8l%2F%2FkiARcqXfhHU4WLzXP6ACz6ytudC%2BY%3D&spr=https&se=2022-12-09T15%3A32%3A14Z&sp=r",
-    "JMA_Background_edit_1": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/1611d870-9ec6-4cef-9728-b69e5b8eb66e.png?sv=2017-04-17&sr=b&sig=RDZ0BpgzFHb1Cde3r02WBsyxU4ot95OJwDb8VL1Doxs%3D&spr=https&se=2022-12-09T15%3A33%3A28Z&sp=r"
-  },
-  "OldLogoFileName": "havjjtsz.jpg",
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 2,
-    "icon": 1,
-    "image": 0
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 2,
-    "Button2": 4,
-    "Button3": 5,
-    "Button4": 6,
-    "Button5": 7,
-    "Button6": 8,
-    "Home": 0,
-    "Icon1": 1,
-    "Icon2": 3,
-    "Image2": 0,
-    "Screen2": 0,
-    "Screen3": 0,
-    "Screen4": 0,
-    "Screen5": 0,
-    "Screen6": 0,
-    "Screen7": 0
-  },
-  "ResourcesJsonIndices": {
-    "Image-Fidelety": 5,
-    "Image-Jma": 2,
-    "Image-JMA_Background": 0,
-    "Image-JMA_Background_edit": 3,
-    "Image-JMA_Background_edit_1": 4,
-    "Image-SampleImage": 1
-  },
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0315367,
-    "ControlCount": {},
-    "ErrorCount": 0
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
