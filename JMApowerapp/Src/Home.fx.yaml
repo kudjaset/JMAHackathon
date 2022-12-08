@@ -8,7 +8,7 @@ Home As screen:
         Width: =186
         X: =303
         Y: =9
-        ZIndex: =1
+        ZIndex: =8
 
     Eglish_group As group:
         Height: =5
@@ -33,7 +33,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =275
-            ZIndex: =2
+            ZIndex: =9
 
         english_claim_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -51,7 +51,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =400
-            ZIndex: =3
+            ZIndex: =10
 
         english_loss_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -69,7 +69,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =525
-            ZIndex: =4
+            ZIndex: =11
 
         english_cancel_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -87,7 +87,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =650
-            ZIndex: =10
+            ZIndex: =12
 
         english_loyalty_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -105,7 +105,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =775
-            ZIndex: =11
+            ZIndex: =13
 
         english_brochure_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -123,7 +123,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =900
-            ZIndex: =12
+            ZIndex: =14
 
         english_contact_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -141,7 +141,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =1025
-            ZIndex: =13
+            ZIndex: =15
 
         english_spanish_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -162,7 +162,7 @@ Home As screen:
             Width: =240
             X: =70
             Y: =1246
-            ZIndex: =20
+            ZIndex: =16
 
     Spanish_group As group:
         Height: =5
@@ -187,7 +187,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =275
-            ZIndex: =21
+            ZIndex: =17
 
         spanish_claim_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -205,7 +205,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =400
-            ZIndex: =22
+            ZIndex: =18
 
         spanish_loss_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -223,7 +223,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =525
-            ZIndex: =23
+            ZIndex: =19
 
         spanish_cancel_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -241,7 +241,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =650
-            ZIndex: =24
+            ZIndex: =20
 
         spanish_loyalty_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -259,7 +259,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =775
-            ZIndex: =25
+            ZIndex: =21
 
         spanish_brochure_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -277,7 +277,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =900
-            ZIndex: =26
+            ZIndex: =22
 
         spanish_contact_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -295,7 +295,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =1025
-            ZIndex: =27
+            ZIndex: =23
 
         spanish_english_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -318,7 +318,7 @@ Home As screen:
             Width: =240
             X: =70
             Y: =1246
-            ZIndex: =28
+            ZIndex: =24
 
     Home_icons As group:
         Height: =5
@@ -335,7 +335,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =275
-            ZIndex: =8
+            ZIndex: =1
 
         total_loss_icon As icon.Tools:
             Color: =RGBA(0, 0, 0, 1)
@@ -345,7 +345,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =525
-            ZIndex: =9
+            ZIndex: =2
 
         cancel_icon As icon.Warning:
             Color: =RGBA(0, 0, 0, 1)
@@ -355,7 +355,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =650
-            ZIndex: =14
+            ZIndex: =3
 
         brochure_icon As icon.DocumentwithContent:
             Color: =RGBA(0, 0, 0, 1)
@@ -365,7 +365,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =900
-            ZIndex: =15
+            ZIndex: =4
 
         contact_icon As icon.Support:
             Color: =RGBA(0, 0, 0, 1)
@@ -375,7 +375,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =1025
-            ZIndex: =18
+            ZIndex: =5
 
         claim_icon As icon.Cars:
             Color: =RGBA(0, 0, 0, 1)
@@ -385,14 +385,14 @@ Home As screen:
             Width: =100
             X: =140
             Y: =400
-            ZIndex: =19
+            ZIndex: =6
 
-        Image5 As image:
+        loyalty_icon As image:
             DisplayMode: =DisplayMode.View
             Height: =125
             Image: =loyalty_clear
             Width: =133
             X: =123
             Y: =762
-            ZIndex: =29
+            ZIndex: =7
 
