@@ -188,17 +188,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.JMA_Background"
+                  "fullyQualifiedName": "App.Jma"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.JMA_Background",
+                  "fullyQualifiedName": "App.Jma",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "JMA_Background",
+                "member": "Jma",
                 "module": "App",
                 "type": "App"
               }
@@ -218,17 +218,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Jma"
+                  "fullyQualifiedName": "App.JMA_Background"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.Jma",
+                  "fullyQualifiedName": "App.JMA_Background",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Jma",
+                "member": "JMA_Background",
                 "module": "App",
                 "type": "App"
               }
