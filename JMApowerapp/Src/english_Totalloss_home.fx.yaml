@@ -1,2 +1,30 @@
 english_Totalloss_home As screen:
+    BackgroundImage: =JMA_Background_edit_1
+    ImagePosition: =ImagePosition.Stretch
+
+    layout_backgraound_all_4 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =3
+
+        Label3_4 As label:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =1063
+            Text: =""
+            Width: =768
+            Y: =87
+            ZIndex: =1
+
+        Icon1_5 As icon.BackArrow:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =100
+            Icon: =Icon.BackArrow
+            OnSelect: |
+                =Back(Transition.None)
+            Width: =100
+            X: =40
+            Y: =1229
+            ZIndex: =2
 

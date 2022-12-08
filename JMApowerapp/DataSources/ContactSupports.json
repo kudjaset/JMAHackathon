@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr1a5_contactsupports",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr1a5_contactsupport",
+    "Name": "ContactSupports",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr1a5_contactsupport_AsyncOperations": "System Jobs",
+      "cr1a5_contactsupport_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr1a5_contactsupport_DuplicateBaseRecord": "Duplicate Records (cr1a5_contactsupport_DuplicateBaseRecord)",
+      "cr1a5_contactsupport_DuplicateMatchingRecord": "Duplicate Records (cr1a5_contactsupport_DuplicateMatchingRecord)",
+      "cr1a5_contactsupport_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr1a5_contactsupport_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr1a5_contactsupport_ProcessSession": "Process Sessions",
+      "cr1a5_contactsupport_SyncErrors": "Sync Errors",
+      "cr1a5_contactsupportid": "ContactSupport",
+      "cr1a5_email": "Email",
+      "cr1a5_name": "Name",
+      "cr1a5_phone": "Phone",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "ContactSupports",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "ContactSupports (Views)",
+    "Name": "_cr1a5_contactsupport_views",
+    "RelatedEntityName": "ContactSupports",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0251e784-21af-4d9c-811a-8ab013e0e117": "Active ContactSupports",
+      "23a23156-a9bb-40ce-97f8-d30c5546e23e": "ContactSupport Lookup View",
+      "2d7e100c-a23c-43f7-a643-988c48935622": "ContactSupport Associated View",
+      "707c6a93-e091-455e-bed1-871601386553": "ContactSupport Advanced Find View",
+      "933a5e00-c210-46c4-b42c-285f8b7876bf": "Inactive ContactSupports"
+    }
+  },
+  {
+    "DisplayName": "Status (ContactSupports)",
+    "Name": "cr1a5_contactsupport_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "ContactSupports"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "ContactSupports",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (ContactSupports)",
+    "Name": "cr1a5_contactsupport_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "ContactSupports"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "ContactSupports",
+    "Type": "OptionSetInfo"
+  }
+]

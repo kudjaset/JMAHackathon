@@ -1,4 +1,4 @@
-Home As screen:
+Home_screen As screen:
     BackgroundImage: =JMA_Background_edit_1
     ImagePosition: =ImagePosition.Stretch
 
@@ -9,36 +9,6 @@ Home As screen:
         X: =303
         Y: =9
         ZIndex: =8
-
-    Dropdown1 As dropdown:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        ChevronBackground: =RGBA(0, 0, 0, 1)
-        Default: ="English"
-        Fill: =RGBA(214, 223, 238, 1)
-        Font: =Font.Georgia
-        FontWeight: =Semibold
-        Height: =65
-        Items: |
-            =["English","Español","Samarium"]
-        OnChange: |-
-            =UpdateContext({englishapp: false});
-            UpdateContext({spanishapp: false});
-            UpdateContext({samariumapp: false});
-            
-            If(Dropdown1.SelectedText.Value = "English", 
-                    UpdateContext({englishapp: true}),
-              Dropdown1.SelectedText.Value = "Español",
-                    UpdateContext({spanishapp: true}),
-              Dropdown1.SelectedText.Value = "Samarium",
-                    UpdateContext({samariumapp: true}));
-        OnSelect: =
-        SelectionFill: =RGBA(0, 0, 0, 1)
-        Size: =20
-        Tooltip: ="Language"
-        Width: =257
-        X: =70
-        Y: =1229
-        ZIndex: =9
 
     Home_icons As group:
         Height: =5
@@ -128,13 +98,14 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(spanish_Dealer_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Encontrar un distribuidor"
-            Visible: =spanishapp
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Español", true)
             Width: =400
             X: =300
             Y: =275
@@ -146,13 +117,14 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(spanish_Claim_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Presentar un reclamo"
-            Visible: =spanishapp
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Español", true)
             Width: =400
             X: =300
             Y: =400
@@ -164,13 +136,14 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(spanish_Totalloss_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Departamento de pérdida total"
-            Visible: =spanishapp
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Español", true)
             Width: =400
             X: =300
             Y: =525
@@ -182,13 +155,14 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(spanish_Cancel_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Cancelación"
-            Visible: =spanishapp
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Español", true)
             Width: =400
             X: =300
             Y: =650
@@ -200,13 +174,14 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(spanish_Loyalty_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Programa de fidelidad"
-            Visible: =spanishapp
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Español", true)
             Width: =400
             X: =300
             Y: =775
@@ -218,13 +193,14 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(spanish_Brochures_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Folletos"
-            Visible: =spanishapp
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Español", true)
             Width: =400
             X: =300
             Y: =900
@@ -236,17 +212,29 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(spanish_ContactUS_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Contactenos"
-            Visible: =spanishapp
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Español", true)
             Width: =400
             X: =300
             Y: =1025
             ZIndex: =16
+
+    Icon1 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =100
+        Icon: =Icon.BackArrow
+        OnSelect: |
+            =Navigate(Welcome_Screen, Transition.None)
+        Width: =100
+        X: =40
+        Y: =1229
+        ZIndex: =31
 
     English_group As group:
         Height: =5
@@ -261,13 +249,16 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: |
+                =Navigate(english_Dealer_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Find a Dealer"
-            Visible: =englishapp
+            Visible: |
+                =If(language_select_welcome.SelectedText.Value  = "English", true)
             Width: =400
             X: =300
             Y: =275
@@ -279,13 +270,16 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: |
+                =Navigate(english_Claim_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Submit a Claim"
-            Visible: =englishapp
+            Visible: |
+                =If(language_select_welcome.SelectedText.Value  = "English", true)
             Width: =400
             X: =300
             Y: =400
@@ -297,13 +291,16 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: |
+                =Navigate(english_Totalloss_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Total Loss Dept"
-            Visible: =englishapp
+            Visible: |
+                =If(language_select_welcome.SelectedText.Value  = "English", true)
             Width: =400
             X: =300
             Y: =525
@@ -315,13 +312,15 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(english_Cancel_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Cancellation"
-            Visible: =englishapp
+            Visible: |
+                =If(language_select_welcome.SelectedText.Value  = "English", true)
             Width: =400
             X: =300
             Y: =650
@@ -333,13 +332,15 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(english_Loyalty_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Loyalty Program"
-            Visible: =englishapp
+            Visible: |
+                =If(language_select_welcome.SelectedText.Value  = "English", true)
             Width: =400
             X: =300
             Y: =775
@@ -351,13 +352,15 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(english_Brochures_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Brochures"
-            Visible: =englishapp
+            Visible: |
+                =If(language_select_welcome.SelectedText.Value  = "English", true)
             Width: =400
             X: =300
             Y: =900
@@ -369,13 +372,15 @@ Home As screen:
             Font: =Font.Georgia
             FontWeight: =Semibold
             Height: =100
+            OnSelect: =Navigate(english_ContactUS_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
             Text: ="Contact Us"
-            Visible: =englishapp
+            Visible: |
+                =If(language_select_welcome.SelectedText.Value  = "English", true)
             Width: =400
             X: =300
             Y: =1025
@@ -395,14 +400,14 @@ Home As screen:
             FontWeight: =Semibold
             Height: =100
             OnSelect: |
-                =Navigate(english_Dealer_home, Transition.None)
+                =Navigate(sam_Dealer_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="deal"
-            Visible: =samariumapp
+            Text: ="Thola Umthengisi"
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Samarium", true)
             Width: =400
             X: =300
             Y: =275
@@ -415,14 +420,14 @@ Home As screen:
             FontWeight: =Semibold
             Height: =100
             OnSelect: |
-                =Navigate(english_Claim_home, Transition.None)
+                =Navigate(sam_Claim_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Claim"
-            Visible: =samariumapp
+            Text: ="Thumela isimangalo"
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Samarium", true)
             Width: =400
             X: =300
             Y: =400
@@ -435,14 +440,14 @@ Home As screen:
             FontWeight: =Semibold
             Height: =100
             OnSelect: |
-                =Navigate(english_Totalloss_home, Transition.None)
+                =Navigate(sam_Totalloss_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Loss"
-            Visible: =samariumapp
+            Text: ="Ukulahlekelwa Okuphelele"
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Samarium", true)
             Width: =400
             X: =300
             Y: =525
@@ -455,14 +460,14 @@ Home As screen:
             FontWeight: =Semibold
             Height: =100
             OnSelect: |
-                =Navigate(english_Cancel_home, Transition.None)
+                =Navigate(sam_Cancel_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="stop"
-            Visible: =samariumapp
+            Text: ="Ukukhansela"
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Samarium", true)
             Width: =400
             X: =300
             Y: =650
@@ -475,14 +480,14 @@ Home As screen:
             FontWeight: =Semibold
             Height: =100
             OnSelect: |
-                =Navigate(english_Loyalty_home, Transition.None)
+                =Navigate(sam_Loyalty_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="loyal"
-            Visible: =samariumapp
+            Text: ="Uhlelo Lobuqotho"
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Samarium", true)
             Width: =400
             X: =300
             Y: =775
@@ -495,14 +500,14 @@ Home As screen:
             FontWeight: =Semibold
             Height: =100
             OnSelect: |
-                =Navigate(english_Brochures_home, Transition.None)
+                =Navigate(sam_Brochures_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="books"
-            Visible: =samariumapp
+            Text: ="Izincwajana"
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Samarium", true)
             Width: =400
             X: =300
             Y: =900
@@ -515,14 +520,14 @@ Home As screen:
             FontWeight: =Semibold
             Height: =100
             OnSelect: |
-                =Navigate(english_ContactUS_home, Transition.None)
+                =Navigate(sam_ContactUS_home, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="help"
-            Visible: =samariumapp
+            Text: ="Xhumana nathi"
+            Visible: =If(language_select_welcome.SelectedText.Value  = "Samarium", true)
             Width: =400
             X: =300
             Y: =1025

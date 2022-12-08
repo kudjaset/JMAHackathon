@@ -1,0 +1,62 @@
+Welcome_Screen As screen:
+    BackgroundImage: =JMA_Background_edit_1
+    ImagePosition: =ImagePosition.Stretch
+
+    Image1 As image:
+        Height: =560
+        Image: =Fidelety
+        Width: =768
+        Y: =51
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Center
+        Font: =Font.Georgia
+        FontWeight: =Semibold
+        Height: =271
+        Size: =32
+        Text: |-
+            ="Welcome, 
+            Please select a language.
+            
+            Bienvenido, 
+            seleccione un idioma."
+        Width: =768
+        Y: =672
+        ZIndex: =5
+
+    language_select_welcome As dropdown:
+        AllowEmptySelection: =true
+        BorderColor: =RGBA(0, 0, 0, 1)
+        ChevronBackground: =RGBA(0, 0, 0, 1)
+        Default: =
+        Fill: =RGBA(214, 223, 238, 1)
+        Font: =Font.Georgia
+        FontWeight: =Semibold
+        Height: =93
+        Items: |
+            =["English","Español","Samarium"]
+        OnChange: =
+        OnSelect: =
+        SelectionFill: =RGBA(0, 0, 0, 1)
+        Size: =20
+        Tooltip: =
+        Width: =323
+        X: =222
+        Y: =960
+        ZIndex: =6
+
+    Button2 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(214, 223, 238, 1)
+        Font: =Font.Georgia
+        FontWeight: =Semibold
+        Height: =70
+        OnSelect: =Navigate(Home_screen, Transition.None);
+        Size: =28
+        Text: ="Enter"
+        Width: =323
+        X: =222
+        Y: =1082
+        ZIndex: =7
+

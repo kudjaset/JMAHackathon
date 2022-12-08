@@ -1,4 +1,0 @@
-Contact_Us As screen:
-    Fill: |-
-        ="<!DOCTYPE html><html><body><iframe src="https://web.powerva.microsoft.com/environments/Default-e2ba673a-b782-4f44-b0b5-93da90258200/bots/crb34_jmaHackathon/webchat?isV2Bot=true" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>"
-

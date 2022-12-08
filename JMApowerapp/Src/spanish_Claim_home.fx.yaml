@@ -1,2 +1,39 @@
 spanish_Claim_home As screen:
 
+    spanish_coming_soon_2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =4
+
+        Icon2_2 As icon.Warning:
+            Color: =RGBA(255, 255, 0, 1)
+            Height: =585
+            Icon: =Icon.Warning
+            Width: =704
+            X: =63
+            Y: =75
+            ZIndex: =1
+
+        Label2_2 As label:
+            Align: =Center
+            FontWeight: =Semibold
+            Height: =305
+            Size: =36
+            Text: ="Español Próximamente"
+            Width: =768
+            Y: =660
+            ZIndex: =2
+
+        Icon3_2 As icon.BackArrow:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =265
+            Icon: =Icon.BackArrow
+            OnSelect: |
+                =Back(ScreenTransition.None)
+            Width: =317
+            X: =231
+            Y: =981
+            ZIndex: =3
+

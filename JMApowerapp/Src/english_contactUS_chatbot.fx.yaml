@@ -1,15 +1,25 @@
-english_Loyalty_home As screen:
+english_contactUS_chatbot As screen:
     BackgroundImage: =JMA_Background_edit_1
     ImagePosition: =ImagePosition.Stretch
 
-    layout_backgraound_all_2 As group:
+    Label4 As label:
+        Align: =Center
+        Font: =Font.Georgia
+        FontWeight: =Normal
+        Height: =87
+        Size: =44
+        Text: ="Chat Support"
+        Width: =768
+        ZIndex: =3
+
+    layout_backgraound_all_7 As group:
         Height: =5
         Width: =5
         X: =60
         Y: =60
         ZIndex: =3
 
-        Label3_2 As label:
+        Label3_7 As label:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =1063
             Text: =""
@@ -17,7 +27,7 @@ english_Loyalty_home As screen:
             Y: =87
             ZIndex: =1
 
-        Icon1_3 As icon.BackArrow:
+        Icon1_8 As icon.BackArrow:
             Color: =RGBA(0, 0, 0, 1)
             Height: =100
             Icon: =Icon.BackArrow
