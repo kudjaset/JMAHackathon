@@ -4,7 +4,7 @@
   "ControlUniqueIds": {
     "App": 1,
     "brochure_icon": 25,
-    "cancel_icon": 24,
+    "cancel_icon": 48,
     "claim_icon": 30,
     "contact_icon": 28,
     "ContactUS_home": 13,
@@ -20,7 +20,7 @@
     "english_spanish_button": 31,
     "Fidelity_image": 4,
     "Home": 3,
-    "Home_icons": 47,
+    "Home_icons": 56,
     "loyalty_icon": 46,
     "Screen3": 14,
     "Screen4": 15,
@@ -40,7 +40,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/08/2022 17:50:10",
+  "HeaderLastSavedDateTimeUTC": "12/08/2022 17:57:53",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -76,13 +76,13 @@
       "english_spanish_button": 7
     },
     "Home_icons": {
-      "brochure_icon": 2,
-      "cancel_icon": 3,
-      "claim_icon": 0,
-      "contact_icon": 1,
-      "dealer_icon": 5,
-      "loyalty_icon": 6,
-      "total_loss_icon": 4
+      "brochure_icon": 4,
+      "cancel_icon": 0,
+      "claim_icon": 1,
+      "contact_icon": 3,
+      "dealer_icon": 6,
+      "loyalty_icon": 2,
+      "total_loss_icon": 5
     },
     "Spanish_group": {
       "spanish_brochure_button": 5,
@@ -155,8 +155,8 @@
     "ControlCount": {
       "button": 14,
       "group": 1,
-      "icon": 2,
-      "image": 1,
+      "icon": 7,
+      "image": 2,
       "screen": 7
     },
     "DeserializationLoadTime": 1.5671024,
