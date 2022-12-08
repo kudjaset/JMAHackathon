@@ -21,8 +21,8 @@ Home As screen:
     Button2 As button:
         Height: =171
         Text: ="Button"
-        Width: =402
-        X: =249
+        Width: =321
+        X: =330
         Y: =480
         ZIndex: =3
 
