@@ -3,26 +3,26 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 12,
-    "Button2": 13,
-    "Button3": 14,
-    "Button4": 15,
-    "Button5": 16,
-    "Button6": 17,
+    "Button1": 6,
+    "Button2": 8,
+    "Button3": 9,
+    "Button4": 10,
+    "Button5": 11,
+    "Button6": 12,
     "Home": 3,
-    "Icon1": 18,
-    "Icon2": 19,
-    "Image2": 11,
-    "Screen2": 4,
-    "Screen3": 5,
-    "Screen4": 6,
-    "Screen5": 7,
-    "Screen6": 8,
-    "Screen7": 9
+    "Icon1": 5,
+    "Icon2": 7,
+    "Image2": 4,
+    "Screen2": 13,
+    "Screen3": 14,
+    "Screen4": 15,
+    "Screen5": 16,
+    "Screen6": 17,
+    "Screen7": 18
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/08/2022 15:57:59",
+  "HeaderLastSavedDateTimeUTC": "12/08/2022 16:01:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -34,11 +34,11 @@
     "JMA_Background_edit_1": "b12608bb-05a9-41b3-9b9a-e971cc4a33f0.png"
   },
   "LocalResourceRootPaths": {
-    "Fidelety": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/d99f7625-80ee-4386-bb55-3184c9cac3e9.png?sv=2017-04-17&sr=b&sig=JX6Mx5d8cesB18BDsOaKJ01IKfLu5ohE3xscaRW9jvI%3D&spr=https&se=2022-12-09T15%3A34%3A29Z&sp=r",
-    "Jma": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/f3e2c396-a67c-4dca-ab7a-084268f93374.png?sv=2017-04-17&sr=b&sig=lfMyYNS5Xz8Imt%2FdYbkxMWCSaQT9q7tcfyDw1ohk4zw%3D&spr=https&se=2022-12-09T15%3A26%3A54Z&sp=r",
-    "JMA_Background": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/701bb7d7-fc14-4fda-8e22-9ea5faceb450.png?sv=2017-04-17&sr=b&sig=ikou3NrD58d1HyG4tOvsZiHbQ59%2FF1YLgfXfYurAhxE%3D&spr=https&se=2022-12-09T15%3A25%3A00Z&sp=r",
-    "JMA_Background_edit": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/3752a778-d98c-4e60-a7fb-26fb1768f6d4.png?sv=2017-04-17&sr=b&sig=bqL7C5y3Kn8l%2F%2FkiARcqXfhHU4WLzXP6ACz6ytudC%2BY%3D&spr=https&se=2022-12-09T15%3A32%3A14Z&sp=r",
-    "JMA_Background_edit_1": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/1611d870-9ec6-4cef-9728-b69e5b8eb66e.png?sv=2017-04-17&sr=b&sig=RDZ0BpgzFHb1Cde3r02WBsyxU4ot95OJwDb8VL1Doxs%3D&spr=https&se=2022-12-09T15%3A33%3A28Z&sp=r"
+    "Fidelety": "https://docserverpwaprodwus.blob.core.windows.net/0aab217e-0b74-4ed3-a304-e99de9bfa482-1/resource/Assets0Images011d3e86e-4356-403b-a2a0-6fbae0efd70c.png?sv=2017-04-17&sr=b&sig=aSI0KaAvsvFLtjA8RUiS%2BLGheYXMlOcnkzh8RmVopec%3D&spr=https&se=2022-12-09T16%3A16%3A08Z&sp=r",
+    "Jma": "https://docserverpwaprodwus.blob.core.windows.net/0aab217e-0b74-4ed3-a304-e99de9bfa482-1/resource/Assets0Images0a35724df-e131-44fd-aa21-ccd50239069b.png?sv=2017-04-17&sr=b&sig=oQOoJEHLCPmq0lO1Q3de9mUNs2NXC2qkNTg%2FLRDrguc%3D&spr=https&se=2022-12-09T16%3A16%3A08Z&sp=r",
+    "JMA_Background": "https://docserverpwaprodwus.blob.core.windows.net/0aab217e-0b74-4ed3-a304-e99de9bfa482-1/resource/Assets0Images0b8a82f2d-11c3-4df4-965b-4b53152387d6.png?sv=2017-04-17&sr=b&sig=oKfoL7MJRfr6RhorCG%2FAePKNOOkODDalu1g6fyzVmjA%3D&spr=https&se=2022-12-09T16%3A16%3A08Z&sp=r",
+    "JMA_Background_edit": "https://docserverpwaprodwus.blob.core.windows.net/0aab217e-0b74-4ed3-a304-e99de9bfa482-1/resource/Assets0Images0fbf7359b-dc51-4961-9425-9d3f0e579d4b.png?sv=2017-04-17&sr=b&sig=11fYgmZjYgEKBSWAf6ldSyGCYN3f%2BVxf2ZdZ%2BFloFyk%3D&spr=https&se=2022-12-09T16%3A16%3A08Z&sp=r",
+    "JMA_Background_edit_1": "https://docserverpwaprodwus.blob.core.windows.net/0aab217e-0b74-4ed3-a304-e99de9bfa482-1/resource/Assets0Images0b12608bb-05a9-41b3-9b9a-e971cc4a33f0.png?sv=2017-04-17&sr=b&sig=qe0Ic3%2BN7eJ1JyRZF7tlAxN1wRKdtBAlg1s7HYG1m8E%3D&spr=https&se=2022-12-09T16%3A16%3A08Z&sp=r"
   },
   "OldLogoFileName": "havjjtsz.jpg",
   "OrderComponentMetadata": {},
@@ -82,8 +82,14 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0315367,
-    "ControlCount": {},
+    "AnalysisLoadTime": 0.1328456,
+    "ControlCount": {
+      "button": 6,
+      "icon": 2,
+      "image": 1,
+      "screen": 7
+    },
+    "DeserializationLoadTime": 1.958775,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
