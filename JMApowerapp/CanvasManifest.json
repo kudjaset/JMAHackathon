@@ -111,11 +111,19 @@
   },
   "ScreenOrder": [
     "Home",
-    "ContactUS_home",
-    "Screen3",
-    "Screen4",
-    "Screen5",
-    "Screen6",
-    "Screen7"
+    "english_ContactUS_home",
+    "spanish_ContactUS_home",
+    "english_Dealer_home",
+    "spanish_Dealer_home",
+    "english_Claim_home",
+    "spanish_Claim_home",
+    "english_Totalloss_home",
+    "spanish_Totalloss_home",
+    "english_Cancel_home",
+    "spanish_Cancel_home",
+    "english_Loyalty_home",
+    "spanish_Loyalty_home",
+    "english_Brochures_home",
+    "spanish_Brochures_home"
   ]
 }
