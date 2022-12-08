@@ -1,0 +1,68 @@
+Home As screen:
+    BackgroundImage: =JMA_Background_edit_1
+    ImagePosition: =ImagePosition.Stretch
+
+    Image2 As image:
+        Height: =220
+        Image: =Fidelety
+        Width: =186
+        X: =303
+        Y: =9
+        ZIndex: =1
+
+    Button1 As button:
+        Height: =132
+        Text: ="Button"
+        Width: =320
+        X: =330
+        Y: =292
+        ZIndex: =2
+
+    Button2 As button:
+        Height: =171
+        Text: ="Button"
+        Width: =320
+        X: =330
+        Y: =480
+        ZIndex: =3
+
+    Button3 As button:
+        Text: ="Button"
+        X: =212
+        Y: =724
+        ZIndex: =4
+
+    Button4 As button:
+        Text: ="Button"
+        X: =303
+        Y: =830
+        ZIndex: =5
+
+    Button5 As button:
+        Text: ="Button"
+        X: =303
+        Y: =966
+        ZIndex: =6
+
+    Button6 As button:
+        Text: ="Button"
+        X: =303
+        Y: =1074
+        ZIndex: =7
+
+    Icon1 As icon.Globe:
+        Height: =115
+        Icon: =Icon.Globe
+        Width: =97
+        X: =138
+        Y: =292
+        ZIndex: =8
+
+    Icon2 As icon.Tools:
+        Height: =110
+        Icon: =Icon.Tools
+        Width: =125
+        X: =108
+        Y: =468
+        ZIndex: =9
+
