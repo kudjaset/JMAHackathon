@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr1a5_contactsupport",
+    "MaxGetRowsCount": 2000,
     "Name": "ContactSupports",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

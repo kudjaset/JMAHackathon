@@ -29,7 +29,7 @@ Welcome_Screen As screen:
         AllowEmptySelection: =true
         BorderColor: =RGBA(0, 0, 0, 1)
         ChevronBackground: =RGBA(0, 0, 0, 1)
-        Default: =
+        Default: ="English"
         Fill: =RGBA(214, 223, 238, 1)
         Font: =Font.Georgia
         FontWeight: =Semibold
@@ -40,7 +40,7 @@ Welcome_Screen As screen:
         OnSelect: =
         SelectionFill: =RGBA(0, 0, 0, 1)
         Size: =20
-        Tooltip: =
+        Tooltip: ="Language"
         Width: =323
         X: =222
         Y: =960
