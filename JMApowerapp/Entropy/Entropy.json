@@ -20,8 +20,8 @@
     "english_spanish_button": 31,
     "Fidelity_image": 4,
     "Home": 3,
-    "homepage_icons": 42,
-    "loyalty_icon": 26,
+    "Home_icons": 47,
+    "Image5": 46,
     "Screen3": 14,
     "Screen4": 15,
     "Screen5": 16,
@@ -40,7 +40,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/08/2022 17:13:36",
+  "HeaderLastSavedDateTimeUTC": "12/08/2022 17:45:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -49,14 +49,16 @@
     "Jma": "0002.png",
     "JMA_Background": "0003.png",
     "JMA_Background_edit": "0004.png",
-    "JMA_Background_edit_1": "0005.png"
+    "JMA_Background_edit_1": "0005.png",
+    "loyalty_clear": "459c6b89-7efb-426b-aa2a-52ec9106b570.png"
   },
   "LocalResourceRootPaths": {
     "Fidelety": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/Assets0Images00001.png?sv=2017-04-17&sr=b&sig=uIUbFihy9EZ5SI5KqNsPCaQ1hNcyge73sVTQH%2Fmvo7Y%3D&spr=https&se=2022-12-09T16%3A17%3A00Z&sp=r",
     "Jma": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/Assets0Images00002.png?sv=2017-04-17&sr=b&sig=6nK1CfUTmkyGWO3NzCrqt%2FtK35xiC6IFYYz1OAMpxLw%3D&spr=https&se=2022-12-09T16%3A17%3A00Z&sp=r",
     "JMA_Background": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/Assets0Images00003.png?sv=2017-04-17&sr=b&sig=MOdJwP2956iRxmyTT3MaYecVXtOHe0hQUAVzbAp%2FwRg%3D&spr=https&se=2022-12-09T16%3A17%3A00Z&sp=r",
     "JMA_Background_edit": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/Assets0Images00004.png?sv=2017-04-17&sr=b&sig=%2BYrb6II4uYNHTlCfqt%2FenQZwGjqN7STz%2BVrfVblH7uU%3D&spr=https&se=2022-12-09T16%3A17%3A00Z&sp=r",
-    "JMA_Background_edit_1": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/Assets0Images00005.png?sv=2017-04-17&sr=b&sig=JsWH3HsSQkvnMfte3ge1XnQGHmtrMCCWEj6YmTlP3Tk%3D&spr=https&se=2022-12-09T16%3A17%3A00Z&sp=r"
+    "JMA_Background_edit_1": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/Assets0Images00005.png?sv=2017-04-17&sr=b&sig=JsWH3HsSQkvnMfte3ge1XnQGHmtrMCCWEj6YmTlP3Tk%3D&spr=https&se=2022-12-09T16%3A17%3A00Z&sp=r",
+    "loyalty_clear": "https://docserverpwaprodeus.blob.core.windows.net/4cbe8dca-6d53-43c5-bd13-e8ff42041620-1/resource/39171f62-9294-47b1-9c0e-d2297c68696a.png?sv=2017-04-17&sr=b&sig=Bta1yDKo7RZpxWWEh%2BJlwfKahO8skV%2BZhR2i6WbhOTI%3D&spr=https&se=2022-12-09T17%3A53%3A42Z&sp=r"
   },
   "OldLogoFileName": "logo.jpg",
   "OrderComponentMetadata": {},
@@ -73,14 +75,14 @@
       "english_loyalty_button": 4,
       "english_spanish_button": 7
     },
-    "homepage_icons": {
-      "brochure_icon": 3,
-      "cancel_icon": 4,
+    "Home_icons": {
+      "brochure_icon": 2,
+      "cancel_icon": 3,
       "claim_icon": 0,
       "contact_icon": 1,
-      "dealer_icon": 6,
-      "loyalty_icon": 2,
-      "total_loss_icon": 5
+      "dealer_icon": 5,
+      "Image5": 6,
+      "total_loss_icon": 4
     },
     "Spanish_group": {
       "spanish_brochure_button": 5,
@@ -119,8 +121,8 @@
     "english_spanish_button": 0,
     "Fidelity_image": 3,
     "Home": 2,
-    "homepage_icons": 0,
-    "loyalty_icon": 0,
+    "Home_icons": 0,
+    "Image5": 0,
     "Screen3": 13,
     "Screen4": 14,
     "Screen5": 15,
@@ -143,6 +145,7 @@
     "Image-JMA_Background": 3,
     "Image-JMA_Background_edit": 4,
     "Image-JMA_Background_edit_1": 5,
+    "Image-loyalty_clear": 6,
     "Image-SampleImage": 0
   },
   "RuleScreenIdWithoutScreen": {},
