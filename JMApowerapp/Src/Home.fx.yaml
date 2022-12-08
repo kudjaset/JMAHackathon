@@ -8,9 +8,40 @@ Home As screen:
         Width: =186
         X: =303
         Y: =9
-        ZIndex: =8
+        ZIndex: =1
 
-    Eglish_group As group:
+    Dropdown1 As dropdown:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        ChevronBackground: =RGBA(0, 0, 0, 1)
+        Default: ="English"
+        Fill: =RGBA(214, 223, 238, 1)
+        Font: =Font.Georgia
+        FontWeight: =Semibold
+        Height: =65
+        Items: |
+            =["English","Español","Samarium"]
+        OnChange: |-
+            =UpdateContext({englishapp: false});
+            UpdateContext({spanishapp: false});
+            UpdateContext({samariumapp: false});
+            
+            If(Dropdown1.SelectedText.Value = "English", 
+                    UpdateContext({englishapp: true}),
+              Dropdown1.SelectedText.Value = "Español",
+                    UpdateContext({spanishapp: true}),
+              Dropdown1.SelectedText.Value = "Samarium",
+                    UpdateContext({samariumapp: true}),
+                    UpdateContext({englishapp: true}));
+        OnSelect: =
+        SelectionFill: =RGBA(0, 0, 0, 1)
+        Size: =20
+        Tooltip: ="Language"
+        Width: =257
+        X: =70
+        Y: =1229
+        ZIndex: =2
+
+    English_group As group:
         Height: =5
         Width: =5
         X: =40
@@ -35,7 +66,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =275
-            ZIndex: =9
+            ZIndex: =10
 
         english_claim_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -55,7 +86,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =400
-            ZIndex: =10
+            ZIndex: =11
 
         english_loss_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -75,7 +106,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =525
-            ZIndex: =11
+            ZIndex: =12
 
         english_cancel_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -95,7 +126,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =650
-            ZIndex: =12
+            ZIndex: =13
 
         english_loyalty_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -115,7 +146,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =775
-            ZIndex: =13
+            ZIndex: =14
 
         english_brochure_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -135,7 +166,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =900
-            ZIndex: =14
+            ZIndex: =15
 
         english_contact_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -155,32 +186,7 @@ Home As screen:
             Width: =400
             X: =300
             Y: =1025
-            ZIndex: =15
-
-    Dropdown1 As dropdown:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        ChevronBackground: =RGBA(0, 0, 0, 1)
-        Default: ="English"
-        Fill: =RGBA(214, 223, 238, 1)
-        Font: =Font.Georgia
-        FontWeight: =Semibold
-        Height: =65
-        Items: |
-            =["English","Español","Samarium"]
-        OnChange: |-
-            =If(Dropdown1.SelectedText.Value = "English", 
-                    UpdateContext({englishapp: true}) || UpdateContext({spanishapp: false}) || UpdateContext({samariumapp: false}),
-                Dropdown1.SelectedText.Value = "Español",
-                    UpdateContext({spanishapp: true}) || UpdateContext({englishapp: false}) || UpdateContext({samariumapp: false}),
-                Dropdown1.SelectedText.Value = "Samarium",
-                    UpdateContext({samariumapp: true}) || UpdateContext({englishapp: false}) || UpdateContext({spanishapp: false}));
-        SelectionFill: =RGBA(0, 0, 0, 1)
-        Size: =20
-        Tooltip: ="Language"
-        Width: =257
-        X: =70
-        Y: =1229
-        ZIndex: =25
+            ZIndex: =16
 
     Home_icons As group:
         Height: =5
@@ -197,7 +203,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =275
-            ZIndex: =1
+            ZIndex: =3
 
         total_loss_icon As icon.Tools:
             Color: =RGBA(0, 0, 0, 1)
@@ -207,7 +213,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =525
-            ZIndex: =2
+            ZIndex: =4
 
         brochure_icon As icon.DocumentwithContent:
             Color: =RGBA(0, 0, 0, 1)
@@ -217,7 +223,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =900
-            ZIndex: =3
+            ZIndex: =5
 
         contact_icon As icon.Support:
             Color: =RGBA(0, 0, 0, 1)
@@ -227,7 +233,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =1025
-            ZIndex: =4
+            ZIndex: =6
 
         claim_icon As icon.Cars:
             Color: =RGBA(0, 0, 0, 1)
@@ -237,7 +243,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =400
-            ZIndex: =5
+            ZIndex: =7
 
         loyalty_icon As image:
             DisplayMode: =DisplayMode.View
@@ -246,7 +252,7 @@ Home As screen:
             Width: =133
             X: =123
             Y: =762
-            ZIndex: =6
+            ZIndex: =8
 
         cancel_icon As icon.CancelBadge:
             Color: =RGBA(0, 0, 0, 1)
@@ -255,7 +261,7 @@ Home As screen:
             Width: =100
             X: =140
             Y: =650
-            ZIndex: =7
+            ZIndex: =9
 
     Spanish_group As group:
         Height: =5
@@ -410,12 +416,12 @@ Home As screen:
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Find a Dealer"
+            Text: ="deal"
             Visible: =samariumapp
             Width: =400
             X: =300
             Y: =275
-            ZIndex: =26
+            ZIndex: =24
 
         samarium_claim_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -430,12 +436,12 @@ Home As screen:
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Submit a Claim"
+            Text: ="Claim"
             Visible: =samariumapp
             Width: =400
             X: =300
             Y: =400
-            ZIndex: =27
+            ZIndex: =25
 
         samarium_loss_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -450,12 +456,12 @@ Home As screen:
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Total Loss Dept"
+            Text: ="Loss"
             Visible: =samariumapp
             Width: =400
             X: =300
             Y: =525
-            ZIndex: =28
+            ZIndex: =26
 
         samarium_cancel_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -470,12 +476,12 @@ Home As screen:
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Cancellation"
+            Text: ="stop"
             Visible: =samariumapp
             Width: =400
             X: =300
             Y: =650
-            ZIndex: =29
+            ZIndex: =27
 
         samarium_loyalty_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -490,12 +496,12 @@ Home As screen:
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Loyalty Program"
+            Text: ="loyal"
             Visible: =samariumapp
             Width: =400
             X: =300
             Y: =775
-            ZIndex: =30
+            ZIndex: =28
 
         samarium_brochure_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -510,12 +516,12 @@ Home As screen:
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Brochures"
+            Text: ="books"
             Visible: =samariumapp
             Width: =400
             X: =300
             Y: =900
-            ZIndex: =31
+            ZIndex: =29
 
         samarium_contact_button As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -530,10 +536,10 @@ Home As screen:
             RadiusTopLeft: =75
             RadiusTopRight: =25
             Size: =28
-            Text: ="Contact Us"
+            Text: ="help"
             Visible: =samariumapp
             Width: =400
             X: =300
             Y: =1025
-            ZIndex: =32
+            ZIndex: =30
 
