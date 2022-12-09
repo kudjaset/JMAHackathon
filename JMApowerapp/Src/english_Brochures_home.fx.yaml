@@ -2,6 +2,72 @@ english_Brochures_home As screen:
     BackgroundImage: =JMA_Background_edit_1
     ImagePosition: =ImagePosition.Stretch
 
+    "Gallery3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Fill: =RGBA(214, 223, 238, 1)
+        Height: =1007
+        Items: |-
+            =If(IsBlank(TextInput1.Text), JMA_Brochure,
+                newcollection)
+        Layout: =Layout.Vertical
+        OnSelect: |-
+            =Set(varDocumentCurrent, PDFdataURI.Run(Gallery3.Selected.Identifier).result);
+            Navigate(english_brochure_PDF, Transition.None)
+        TemplatePadding: =0
+        TemplateSize: =Min(96, Self.Height - 60)
+        Width: =768
+        Y: =151
+        ZIndex: =1
+
+        Title3 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Brochure_Description
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        NextArrow3 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Separator3 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =3
+
+    Label15 As label:
+        Align: =Center
+        Font: =Font.Georgia
+        FontWeight: =Semibold
+        Height: =87
+        Size: =40
+        Text: ="Brochure List"
+        Width: =768
+        ZIndex: =3
+
     layout_backgraound_all_1 As group:
         Height: =5
         Width: =5
@@ -11,20 +77,70 @@ english_Brochures_home As screen:
 
         Label3_1 As label:
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =1063
+            Height: =1008
             Text: =""
             Width: =768
-            Y: =87
+            Y: =151
             ZIndex: =1
 
         Icon1_2 As icon.BackArrow:
             Color: =RGBA(0, 0, 0, 1)
-            Height: =100
+            Height: =95
             Icon: =Icon.BackArrow
             OnSelect: |
                 =Back(Transition.None)
             Width: =100
             X: =40
-            Y: =1229
+            Y: =1234
             ZIndex: =2
+
+    Icon4 As icon.Search:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.Search
+        OnSelect: |-
+            =Clear(newcollection);
+            ForAll(Split(TextInput1.Text, "*") As SplitMe,
+            Collect(newcollection, Filter(JMA_Brochure, Trim(SplitMe.Result) in Brochure_Description)))
+        Width: =75
+        X: =612
+        Y: =87
+        ZIndex: =4
+
+    TextInput1 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Default: =
+        Height: =64
+        HintText: ="Brochure Name"
+        Size: =24
+        Width: =450
+        X: =162
+        Y: =87
+        ZIndex: =5
+
+    Icon5 As icon.CancelBadge:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.CancelBadge
+        OnSelect: |-
+            =Clear(newcollection);
+            Reset(TextInput1)
+        Width: =81
+        X: =687
+        Y: =87
+        ZIndex: =6
+
+    Label16 As label:
+        Align: =Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        FontWeight: =Semibold
+        Height: =64
+        Size: =24
+        Text: ="Search"
+        Width: =162
+        Y: =87
+        ZIndex: =7
 

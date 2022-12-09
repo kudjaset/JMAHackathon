@@ -1,0 +1,48 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-11-09T20:26:35.1500000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{FilenameWithExtension}": "File name with extension",
+      "{FullPath}": "Full Path",
+      "{Identifier}": "Identifier",
+      "{IsCheckedOut}": "Checked out",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Link to item",
+      "{ModerationComment}": "Comments associated with the content approval of this list item",
+      "{ModerationStatus}": "Content approval status",
+      "{Name}": "Name",
+      "{Path}": "Folder path",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Trigger Window End Token",
+      "{TriggerWindowStartToken}": "Trigger Window Start Token",
+      "{VersionNumber}": "Version number",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "Brochure_Description": "Brochure_Description",
+      "C_x002f_S_x0023_": "C/S#",
+      "CheckoutUser": "Checked Out To",
+      "CheckoutUser#Claims": "Checked Out To Claims",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Created": "Created",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "ID": "ID",
+      "Modified": "Modified",
+      "OData__DisplayName": "Sensitivity",
+      "OData__ExtendedDescription": "Description",
+      "Product_Type": "Product_Type",
+      "Title": "Title"
+    },
+    "DatasetName": "https://jmfamily.sharepoint.com/sites/GoCOperationsCodvid2020",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "JMA_Brochure",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

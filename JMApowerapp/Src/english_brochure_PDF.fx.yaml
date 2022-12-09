@@ -1,0 +1,51 @@
+english_brochure_PDF As screen:
+    BackgroundImage: =JMA_Background_edit_1
+    ImagePosition: =ImagePosition.Stretch
+
+    PdfViewer1 As pdfViewer:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Document: =varDocumentCurrent
+        Fill: =RGBA(0, 0, 0, 0.5)
+        Height: =1024
+        Width: =768
+        Y: =125
+        ZIndex: =3
+
+    layout_backgraound_all_8 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =3
+
+        Label3_8 As label:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =1030
+            Text: =""
+            Width: =768
+            Y: =125
+            ZIndex: =1
+
+        Icon1_9 As icon.BackArrow:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =97
+            Icon: =Icon.BackArrow
+            OnSelect: |
+                =Back(Transition.None)
+            Width: =100
+            X: =40
+            Y: =1232
+            ZIndex: =2
+
+    Label17 As label:
+        Align: =Center
+        Fill: =RGBA(214, 223, 238, 1)
+        Font: =Font.Georgia
+        Height: =110
+        Size: =36
+        Text: =Gallery3.Selected.Brochure_Description
+        Width: =729
+        X: =20
+        Y: =8
+        ZIndex: =4
+
