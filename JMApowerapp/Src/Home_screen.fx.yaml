@@ -250,7 +250,7 @@ Home_screen As screen:
             FontWeight: =Semibold
             Height: =100
             OnSelect: |
-                =Navigate(english_Dealer_home, Transition.None)
+                =Navigate(english_Dealer_search, Transition.None)
             RadiusBottomLeft: =25
             RadiusBottomRight: =75
             RadiusTopLeft: =75

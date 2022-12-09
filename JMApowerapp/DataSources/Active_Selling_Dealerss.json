@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr1a5_active_selling_dealers_2",
+    "MaxGetRowsCount": 2000,
     "Name": "Active_Selling_Dealerss",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

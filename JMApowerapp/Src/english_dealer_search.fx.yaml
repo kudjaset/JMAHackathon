@@ -1,4 +1,4 @@
-english_dealer_search As screen:
+english_Dealer_search As screen:
     BackgroundImage: =JMA_Background_edit
     ImagePosition: =ImagePosition.Stretch
 
