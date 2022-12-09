@@ -11,7 +11,7 @@ Presentation_Home As screen:
         ZIndex: =1
 
     Label6 As label:
-        Align: =Right
+        Align: =Center
         Font: =Font.Georgia
         FontWeight: =Semibold
         Height: =175
@@ -19,20 +19,18 @@ Presentation_Home As screen:
         Text: |-
             ="Cool Cats Coding
             In Azure "
-        Width: =696
-        X: =44
+        Width: =768
         Y: =776
         ZIndex: =2
 
     Label7 As label:
-        Align: =Right
+        Align: =Center
         Font: =Font.Georgia
         FontWeight: =Semibold
         Height: =161
         Size: =90
         Text: ="C C C I A"
-        Width: =641
-        X: =99
+        Width: =768
         Y: =615
         ZIndex: =3
 
@@ -48,8 +46,8 @@ Presentation_Home As screen:
         RadiusTopRight: =1000
         Size: =36
         Text: ="Meet The Team"
-        Width: =533
-        X: =114
-        Y: =996
+        Width: =464
+        X: =160
+        Y: =977
         ZIndex: =4
 
