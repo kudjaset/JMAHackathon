@@ -1884,6 +1884,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Problem_Solution.Icon9.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Problem_Solution.Icon9.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Problem_Solution",
+                "type": "Problem_Solution.Icon9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "english_Cancel_home.Form1.Cancel_Date_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
@@ -2767,6 +2797,36 @@
                 "member": "AccessibleLabel",
                 "module": "english_Cancel_home",
                 "type": "english_Cancel_home.Form1.Attachments_DataCard1.DataCardValue27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Problem_Solution.Icon9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Problem_Solution.Icon9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Problem_Solution",
+                "type": "Problem_Solution.Icon9"
               }
             }
           ],

@@ -21,18 +21,18 @@ Presentation_Home As screen:
             In Azure "
         Width: =696
         X: =44
-        Y: =795
+        Y: =776
         ZIndex: =2
 
     Label7 As label:
         Align: =Right
         Font: =Font.Georgia
         FontWeight: =Semibold
-        Height: =210
+        Height: =161
         Size: =90
         Text: ="C C C I A"
-        Width: =590
-        X: =150
+        Width: =641
+        X: =99
         Y: =615
         ZIndex: =3
 
