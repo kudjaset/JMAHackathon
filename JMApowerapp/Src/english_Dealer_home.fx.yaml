@@ -163,6 +163,7 @@ english_Dealer_home As screen:
         Color: =RGBA(0, 0, 0, 1)
         Height: =88
         Icon: =Icon.Reload
+        OnSelect: =Reset(TextSearchBox1)
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
