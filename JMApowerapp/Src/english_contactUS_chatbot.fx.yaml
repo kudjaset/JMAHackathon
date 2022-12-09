@@ -38,3 +38,13 @@ english_contactUS_chatbot As screen:
             Y: =1229
             ZIndex: =2
 
+    PowerBI1 As powerbi:
+        DashboardId: ="7fe2ca9f-422a-4487-a256-02719d5bba2a"
+        Height: =1063
+        TileUrl: |-
+            ="https://app.powerbi.com/embed?dashboardId=7fe2ca9f-422a-4487-a256-02719d5bba2a&tileId=2006eb8c-c888-41c8-a053-8ef171935aa1&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVVTLU5PUlRILUNFTlRSQUwtQi1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsibW9kZXJuRW1iZWQiOmZhbHNlfX0%3d"
+        Width: =768
+        WorkspaceId: ="__my-workspace"
+        Y: =87
+        ZIndex: =4
+
