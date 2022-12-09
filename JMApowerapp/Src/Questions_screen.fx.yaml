@@ -1,0 +1,50 @@
+Questions_screen As screen:
+    BackgroundImage: =JMA_blank_background
+    ImagePosition: =ImagePosition.Stretch
+
+    Icon11 As icon.QuestionMark:
+        Color: =RGBA(255, 255, 0, 1)
+        Height: =823
+        Icon: =Icon.QuestionMark
+        Width: =545
+        X: =114
+        Y: =276
+        ZIndex: =1
+
+    Label25 As label:
+        Align: =Center
+        Color: =RGBA(255, 255, 0, 1)
+        Height: =205
+        Size: =60
+        Text: ="Questions?"
+        Width: =691
+        X: =40
+        Y: =40
+        ZIndex: =2
+
+    Button9_2 As button:
+        Align: =Center
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =205
+        OnSelect: =Back(Transition.None)
+        RadiusTopRight: =1000
+        Size: =32
+        Text: ="Back"
+        Width: =195
+        Y: =1161
+        ZIndex: =3
+
+    Button10_2 As button:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =202
+        OnSelect: =Navigate(Home_screen, Transition.None)
+        RadiusTopLeft: =1000
+        Size: =32
+        Text: |-
+            ="App
+            Home"
+        Width: =194
+        X: =573
+        Y: =1161
+        ZIndex: =4
+

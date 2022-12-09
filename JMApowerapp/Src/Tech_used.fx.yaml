@@ -1,2 +1,37 @@
 Tech_used As screen:
+    BackgroundImage: =JMA_blank_background
+    ImagePosition: =ImagePosition.Tile
+
+    Label24 As label:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =997
+        Text: ="Text"
+        Width: =676
+        X: =40
+        Y: =159
+        ZIndex: =1
+
+    Button9_1 As button:
+        Align: =Center
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =205
+        OnSelect: =Back(Transition.None)
+        RadiusTopRight: =1000
+        Size: =32
+        Text: ="Back"
+        Width: =195
+        Y: =1161
+        ZIndex: =2
+
+    Button10_1 As button:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =202
+        OnSelect: =Navigate(Questions_screen, Transition.None)
+        RadiusTopLeft: =1000
+        Size: =32
+        Text: ="Next"
+        Width: =194
+        X: =573
+        Y: =1161
+        ZIndex: =3
 
