@@ -6,6 +6,20 @@
       "Values": {
         "Information": "7718992b-c423-4850-a116-5b20fb451acf"
       }
+    },
+    {
+      "Kind": "default.cds_cr1a5_jmadealers_forms",
+      "Namespace": "JMA Dealers (Forms)",
+      "Values": {
+        "Information": "f0c3ba94-189d-4f1e-ac71-dd68d2ac0034"
+      }
+    },
+    {
+      "Kind": "default.cds_cr1a5_active_selling_dealers_2_forms",
+      "Namespace": "Active_Selling_Dealerss (Forms)",
+      "Values": {
+        "Information": "28d1b304-6cd0-49de-b7da-d0fd79099ea2"
+      }
     }
   ]
 }

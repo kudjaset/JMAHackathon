@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr1a5_active_selling_dealers_2s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr1a5_active_selling_dealers_2",
+    "Name": "Active_Selling_Dealerss",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr1a5_active_selling_dealers_2_AsyncOperations": "System Jobs",
+      "cr1a5_active_selling_dealers_2_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr1a5_active_selling_dealers_2_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr1a5_active_selling_dealers_2_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr1a5_active_selling_dealers_2_ProcessSession": "Process Sessions",
+      "cr1a5_active_selling_dealers_2_SyncErrors": "Sync Errors",
+      "cr1a5_active_selling_dealers_2id": "Active_Selling_Dealers",
+      "cr1a5_city": "City",
+      "cr1a5_fwsnumber": "FWS Number",
+      "cr1a5_name": "Name",
+      "cr1a5_phone": "Phone",
+      "cr1a5_state": "State",
+      "cr1a5_street": "Street",
+      "cr1a5_zip": "Zip",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Active_Selling_Dealerss",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Active_Selling_Dealerss (Views)",
+    "Name": "_cr1a5_active_selling_dealers_2_views",
+    "RelatedEntityName": "Active_Selling_Dealerss",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "579b1fba-d67d-4ba8-b345-b3e153399f7e": "Inactive Active_Selling_Dealerss",
+      "70eda68a-e968-4eb4-afc7-79d55f4f9993": "Active_Selling_Dealers Associated View",
+      "75774394-a0e9-42a1-b37f-08e8b457ff5e": "Active_Selling_Dealers Lookup View",
+      "7eaa07d6-3f8f-4bb5-81b9-78942abb8a2b": "Active_Selling_Dealers Advanced Find View",
+      "a037b971-90b5-425d-a3cc-a8a760cc78b8": "Active Active_Selling_Dealerss"
+    }
+  },
+  {
+    "DisplayName": "Status (Active_Selling_Dealerss)",
+    "Name": "cr1a5_active_selling_dealers_2_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Active_Selling_Dealerss"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Active_Selling_Dealerss",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Active_Selling_Dealerss)",
+    "Name": "cr1a5_active_selling_dealers_2_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Active_Selling_Dealerss"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Active_Selling_Dealerss",
+    "Type": "OptionSetInfo"
+  }
+]
