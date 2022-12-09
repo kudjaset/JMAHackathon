@@ -48,3 +48,43 @@ Questions_screen As screen:
         Y: =1161
         ZIndex: =4
 
+    Button14 As button:
+        Height: =141
+        OnSelect: |-
+            =UpdateContext({dreampopup: true})
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Text: ="Finish"
+        Width: =138
+        X: =317
+        Y: =1191
+        ZIndex: =5
+
+    Label27 As label:
+        Align: =Center
+        Fill: =RGBA(102, 182, 227, 1)
+        Font: =Font.'Dancing Script'
+        Height: =1069
+        Size: =44
+        Text: |-
+            ="After all this hard work,
+            
+            it's time to relax in
+            
+            CALIFORNIUM
+            
+            with a cold
+            
+            TENNESSINE whisky
+            
+            LIVERMORIUM the
+            
+            AMERICIUM dream!!"
+        Visible: =dreampopup
+        Width: =623
+        X: =84
+        Y: =90
+        ZIndex: =6
+
