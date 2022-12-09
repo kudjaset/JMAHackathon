@@ -2,6 +2,16 @@ english_Cancel_home As screen:
     BackgroundImage: =JMA_Background_edit_1
     ImagePosition: =ImagePosition.Stretch
 
+    Label18 As label:
+        Align: =Center
+        Font: =Font.Georgia
+        FontWeight: =Semibold
+        Height: =87
+        Size: =40
+        Text: ="Cancellation"
+        Width: =768
+        ZIndex: =3
+
     layout_backgraound_all_3 As group:
         Height: =5
         Width: =5
