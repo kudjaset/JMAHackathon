@@ -2,18 +2,77 @@ english_Dealer_home As screen:
     BackgroundImage: =JMA_Background_edit_1
     ImagePosition: =ImagePosition.Stretch
 
-    DealersGallery As gallery.galleryVertical:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =2
-        Fill: =RGBA(214, 223, 238, 1)
+    "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =974
-        Items: =SortByColumns(Search(Active_Selling_Dealerss, TextSearchBox1.Text, "cr1a5_zip"), "cr1a5_name", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: |
+            =SortByColumns(Search(Active_Selling_Dealerss, TextSearchBox1.Text, "cr1a5_zip"), "cr1a5_name", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
-        ShowScrollbar: =false
-        TemplateSize: =126
+        TemplatePadding: =0
+        TemplateSize: =156
         Width: =768
         Y: =176
-        ZIndex: =3
+        ZIndex: =1
+
+        Title2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Name
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle2 As label:
+            Height: =31
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Street
+            VerticalAlign: =VerticalAlign.Top
+            Width: =664
+            X: =32
+            Y: =54
+            ZIndex: =2
+
+        NextArrow2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =95
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =696
+            Y: =16
+            ZIndex: =4
+
+        Separator2 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+        Label6 As label:
+            Height: =43
+            OnSelect: =Select(Parent)
+            Size: =18
+            Text: =ThisItem.City & " " &ThisItem.State & ", " & ThisItem.Zip
+            Width: =664
+            X: =32
+            Y: =85
+            ZIndex: =6
 
     layout_backgraound_all_6 As group:
         Height: =5
