@@ -1,15 +1,6 @@
 Tech_used As screen:
     BackgroundImage: =JMA_blank_background
-    ImagePosition: =ImagePosition.Tile
-
-    Label24 As label:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =997
-        Text: ="Text"
-        Width: =676
-        X: =40
-        Y: =159
-        ZIndex: =1
+    ImagePosition: =ImagePosition.Stretch
 
     Button9_1 As button:
         Align: =Center
@@ -34,4 +25,14 @@ Tech_used As screen:
         X: =573
         Y: =1161
         ZIndex: =3
+
+    Label26 As label:
+        Align: =Center
+        Color: =RGBA(204, 231, 246, 1)
+        Font: =Font.Georgia
+        Height: =159
+        Size: =60
+        Text: ="Technology Used"
+        Width: =768
+        ZIndex: =4
 

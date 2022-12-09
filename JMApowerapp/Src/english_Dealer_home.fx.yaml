@@ -119,25 +119,6 @@ english_Dealer_home As screen:
         Y: =88
         ZIndex: =5
 
-    IconNewItem1 As icon.Add:
-        AccessibleLabel: =IconNewItem1.Tooltip
-        AutoDisableOnSelect: =false
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =2
-        Color: =RGBA(0, 0, 0, 1)
-        Height: =88
-        Icon: =Icon.Add
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Create new item"
-        Width: =88
-        X: =592
-        Y: =88
-        ZIndex: =6
-
     TextSearchBox1 As text:
         Align: =Left
         BorderColor: =RGBA(0, 0, 0, 1)
@@ -154,7 +135,7 @@ english_Dealer_home As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =7
         Size: =21
-        Width: =416
+        Width: =494
         X: =88
         Y: =88
         ZIndex: =7
@@ -188,8 +169,8 @@ english_Dealer_home As screen:
         PaddingTop: =22
         TabIndex: =0
         Tooltip: ="Refresh list"
-        Width: =88
-        X: =504
+        Width: =97
+        X: =582
         Y: =88
         ZIndex: =10
 
