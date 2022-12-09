@@ -42,7 +42,6 @@ english_Dealer_search As screen:
             ZIndex: =5
 
         ZipLabel As label:
-            Color: =RGBA(230, 230, 230, 1)
             DisplayMode: =DisplayMode.View
             Height: =20
             OnSelect: =Select(Parent)
@@ -52,7 +51,6 @@ english_Dealer_search As screen:
             ZIndex: =6
 
         StateLabel As label:
-            Color: =RGBA(230, 230, 230, 1)
             DisplayMode: =DisplayMode.View
             Height: =23
             OnSelect: =Select(Parent)
