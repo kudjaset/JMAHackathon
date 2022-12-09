@@ -1,0 +1,55 @@
+Presentation_Home As screen:
+    BackgroundImage: =JMA_blank_background
+    ImagePosition: =ImagePosition.Stretch
+
+    Image2 As image:
+        Height: =531
+        Image: =CCCIA
+        Width: =509
+        X: =138
+        Y: =48
+        ZIndex: =1
+
+    Label6 As label:
+        Align: =Right
+        Font: =Font.Georgia
+        FontWeight: =Semibold
+        Height: =175
+        Size: =40
+        Text: |-
+            ="Cool Cats Coding
+            In Azure "
+        Width: =696
+        X: =44
+        Y: =795
+        ZIndex: =2
+
+    Label7 As label:
+        Align: =Right
+        Font: =Font.Georgia
+        FontWeight: =Semibold
+        Height: =210
+        Size: =90
+        Text: ="C C C I A"
+        Width: =590
+        X: =150
+        Y: =615
+        ZIndex: =3
+
+    Button1 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(102, 182, 227, 1)
+        Font: =Font.Georgia
+        Height: =306
+        OnSelect: =Navigate(Meet_Team, Transition.Pop)
+        RadiusBottomLeft: =1000
+        RadiusBottomRight: =1000
+        RadiusTopLeft: =1000
+        RadiusTopRight: =1000
+        Size: =36
+        Text: ="Meet The Team"
+        Width: =533
+        X: =114
+        Y: =996
+        ZIndex: =4
+

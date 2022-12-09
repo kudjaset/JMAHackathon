@@ -109,6 +109,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "Presentation_Home",
     "Welcome_Screen",
     "Home_screen",
     "english_Dealer_home",
@@ -133,6 +134,10 @@
     "sam_Brochures_home",
     "sam_ContactUS_home",
     "english_contactUS_chatbot",
-    "english_brochure_PDF"
+    "english_brochure_PDF",
+    "Meet_Team",
+    "Problem_Solution",
+    "WoW_Innovation",
+    "WoW_Innovation_1"
   ]
 }

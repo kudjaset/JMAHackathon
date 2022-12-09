@@ -11,6 +11,9 @@
     "datasets": {
       "https://jmfamily.sharepoint.com/sites/GoCOperationsCodvid2020": {
         "dataSources": {
+          "customer_Cancel_form": {
+            "tableName": "0ff590f2-165c-4fa1-817b-89f0ebb5fb5b"
+          },
           "JMA_Brochure": {
             "tableName": "9ec32013-0c2d-4789-a5ad-b82282919ee4"
           }
@@ -18,7 +21,8 @@
       }
     },
     "dataSources": [
-      "JMA_Brochure"
+      "JMA_Brochure",
+      "customer_Cancel_form"
     ],
     "dependencies": {},
     "dependents": [
