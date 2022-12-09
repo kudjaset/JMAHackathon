@@ -55,13 +55,13 @@ Screen5 As screen:
         Height: =608
         Size: =40
         Text: |-
-            ="Hit
+            ="All
             
-            Number
+            Artist
             
-            1
+            Play
             
-            Billboard"
+            Guitar"
         Visible: =hitsongs
         Width: =465
         X: =156
