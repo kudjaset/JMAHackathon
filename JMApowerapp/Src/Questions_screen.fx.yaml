@@ -99,6 +99,7 @@ Questions_screen As screen:
             ZIndex: =6
 
         Button14_1 As button:
+            Font: =Font.'Dancing Script'
             Height: =141
             OnSelect: |-
                 =Navigate(Presentation_Home, Transition.None);
@@ -107,10 +108,11 @@ Questions_screen As screen:
             RadiusBottomRight: =100
             RadiusTopLeft: =100
             RadiusTopRight: =100
-            Text: ="Finish"
+            Size: =40
+            Text: ="THANK YOU"
             Visible: =dreampopup
-            Width: =138
-            X: =317
+            Width: =368
+            X: =205
             Y: =1191
             ZIndex: =7
 
