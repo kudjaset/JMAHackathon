@@ -12,14 +12,23 @@ Problem_Solution As screen:
         ZIndex: =1
 
     Label21 As label:
+        Align: =Center
         Fill: =RGBA(204, 231, 246, 1)
         Font: =Font.'Courier New'
+        FontWeight: =Semibold
         Height: =699
-        Size: =20
+        Size: =24
         Text: |-
-            ="Currently JM&A has documents and forms
-            in multiple places. They would like to 
-            bring together all in one place
+            ="Many different web pages.
+            
+            
+            Information hard to find.
+            
+            
+            How to contact Support???
+            
+            
+            Poor customer experience.
             
              "
         Visible: =problempopup
@@ -54,12 +63,19 @@ Problem_Solution As screen:
         ZIndex: =5
 
     Label21_1 As label:
+        Align: =Center
         Fill: =RGBA(204, 231, 246, 1)
+        FontWeight: =Semibold
         Height: =699
-        Size: =20
+        Size: =40
         Text: |-
-            =" The solution
-             "
+            ="AWAIN
+            
+            Application
+            Without
+            An
+            Important
+            Name"
         Visible: =solutionpopup
         Width: =654
         X: =57
