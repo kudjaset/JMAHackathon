@@ -2,87 +2,6 @@ english_Dealer_home As screen:
     BackgroundImage: =JMA_Background_edit_1
     ImagePosition: =ImagePosition.Stretch
 
-    DealersGallery As gallery.galleryVertical:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =2
-        Fill: =RGBA(214, 223, 238, 1)
-        Height: =974
-        Items: =SortByColumns(Search(Active_Selling_Dealerss, TextSearchBox1.Text, "cr1a5_zip"), "cr1a5_name", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
-        Layout: =Layout.Vertical
-        ShowScrollbar: =false
-        TemplateSize: =126
-        Width: =768
-        Y: =176
-        ZIndex: =3
-
-        CityLabel As label:
-            DisplayMode: =DisplayMode.View
-            Height: =20
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.City
-            Width: =202
-            X: =10
-            Y: =65
-            ZIndex: =3
-
-        NameLabel As label:
-            DisplayMode: =DisplayMode.View
-            FontWeight: =FontWeight.Bold
-            Height: =26
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Name
-            Width: =747
-            X: =10
-            Y: =14
-            ZIndex: =5
-
-        ZipLabel As label:
-            DisplayMode: =DisplayMode.View
-            Height: =20
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Zip
-            X: =607
-            Y: =65
-            ZIndex: =6
-
-        StateLabel As label:
-            DisplayMode: =DisplayMode.View
-            Height: =23
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.State
-            Width: =52
-            X: =555
-            Y: =62
-            ZIndex: =7
-
-        StreetLabel As label:
-            DisplayMode: =DisplayMode.View
-            Height: =25
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Street
-            Width: =747
-            X: =11
-            Y: =40
-            ZIndex: =8
-
-        PhoneLabel As label:
-            DisplayMode: =DisplayMode.View
-            Height: =21
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Phone
-            X: =10
-            Y: =85
-            ZIndex: =9
-
-        Rectangle4 As rectangle:
-            Fill: =RGBA(0, 134, 208, 1)
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =747
-            X: =10
-            Y: =117
-            ZIndex: =10
-
     layout_backgraound_all_6 As group:
         Height: =5
         Width: =5
@@ -108,6 +27,19 @@ english_Dealer_home As screen:
             X: =40
             Y: =1229
             ZIndex: =2
+
+    DealersGallery As gallery.galleryVertical:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Fill: =RGBA(214, 223, 238, 1)
+        Height: =974
+        Items: =SortByColumns(Search(Active_Selling_Dealerss, TextSearchBox1.Text, "cr1a5_zip"), "cr1a5_name", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplateSize: =126
+        Width: =768
+        Y: =176
+        ZIndex: =3
 
     LblAppName1 As label:
         Align: =Center
