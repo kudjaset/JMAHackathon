@@ -39,12 +39,12 @@ english_contactUS_chatbot As screen:
             ZIndex: =2
 
     PowerBI1 As powerbi:
-        DashboardId: ="7fe2ca9f-422a-4487-a256-02719d5bba2a"
+        DashboardId: ="331c9ce1-76f7-4846-9826-59ca10789c26"
         Height: =1063
         TileUrl: |-
-            ="https://app.powerbi.com/embed?dashboardId=7fe2ca9f-422a-4487-a256-02719d5bba2a&tileId=2006eb8c-c888-41c8-a053-8ef171935aa1&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVVTLU5PUlRILUNFTlRSQUwtQi1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsibW9kZXJuRW1iZWQiOmZhbHNlfX0%3d"
+            ="https://app.powerbi.com/embed?dashboardId=331c9ce1-76f7-4846-9826-59ca10789c26&tileId=64cb26be-1123-46d6-93ff-1c7ee750916a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVVTLU5PUlRILUNFTlRSQUwtQi1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsibW9kZXJuRW1iZWQiOmZhbHNlfX0%3d"
         Width: =768
-        WorkspaceId: ="__my-workspace"
+        WorkspaceId: ="5fee06c4-f8e8-4520-a926-147327f01cbd"
         Y: =87
         ZIndex: =4
 
