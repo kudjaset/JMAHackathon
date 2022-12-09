@@ -21,6 +21,7 @@ english_dealer_search As screen:
 
         CityLabel As label:
             Color: =RGBA(230, 230, 230, 1)
+            DisplayMode: =DisplayMode.View
             Height: =20
             OnSelect: =Select(Parent)
             Text: =ThisItem.City
@@ -31,6 +32,7 @@ english_dealer_search As screen:
 
         NameLabel As label:
             Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
             FontWeight: =FontWeight.Bold
             Height: =26
             OnSelect: =Select(Parent)
@@ -42,6 +44,7 @@ english_dealer_search As screen:
 
         ZipLabel As label:
             Color: =RGBA(230, 230, 230, 1)
+            DisplayMode: =DisplayMode.View
             Height: =20
             OnSelect: =Select(Parent)
             Text: =ThisItem.Zip
@@ -51,6 +54,7 @@ english_dealer_search As screen:
 
         StateLabel As label:
             Color: =RGBA(230, 230, 230, 1)
+            DisplayMode: =DisplayMode.View
             Height: =23
             OnSelect: =Select(Parent)
             Text: =ThisItem.State
@@ -61,6 +65,7 @@ english_dealer_search As screen:
 
         StreetLabel As label:
             Color: =RGBA(230, 230, 230, 1)
+            DisplayMode: =DisplayMode.View
             Height: =25
             OnSelect: =Select(Parent)
             Text: =ThisItem.Street
@@ -71,6 +76,7 @@ english_dealer_search As screen:
 
         PhoneLabel As label:
             Color: =RGBA(230, 230, 230, 1)
+            DisplayMode: =DisplayMode.View
             Height: =21
             OnSelect: =Select(Parent)
             Text: =ThisItem.Phone
