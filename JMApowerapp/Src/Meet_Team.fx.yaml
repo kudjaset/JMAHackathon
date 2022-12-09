@@ -65,7 +65,7 @@ Meet_Team As screen:
         Height: =140
         Size: =40
         Text: |-
-            ="Austin Parker
+            ="Rifi Jeanniton
             SET"
         Width: =660
         X: =50
@@ -83,7 +83,7 @@ Meet_Team As screen:
             SET"
         Width: =660
         X: =50
-        Y: =530
+        Y: =505
         ZIndex: =7
 
     Label9_2 As label:
@@ -92,11 +92,11 @@ Meet_Team As screen:
         Height: =140
         Size: =40
         Text: |-
-            ="Rifi Jeanniton
+            ="Austin Parker
             SET"
         Width: =660
-        X: =50
-        Y: =670
+        X: =49
+        Y: =612
         ZIndex: =8
 
     Label9_3 As label:
@@ -109,8 +109,8 @@ Meet_Team As screen:
             ="Thomas Freeland
             SET BU IT"
         Width: =660
-        X: =50
-        Y: =810
+        X: =54
+        Y: =727
         ZIndex: =9
 
     Label9_4 As label:
@@ -122,8 +122,8 @@ Meet_Team As screen:
             ="Lee Altschuler
             SETF BU IT"
         Width: =660
-        X: =50
-        Y: =950
+        X: =54
+        Y: =867
         ZIndex: =10
 
     Label9_5 As label:
@@ -136,8 +136,8 @@ Meet_Team As screen:
             ="Russell Church
             SETF BU IT"
         Width: =660
-        X: =50
-        Y: =1090
+        X: =58
+        Y: =1021
         ZIndex: =11
 
     Label19 As label:
@@ -148,24 +148,28 @@ Meet_Team As screen:
         Y: =381
         ZIndex: =12
 
-    Button3 As button:
-        Fill: =RGBA(141, 198, 63, 1)
-        Height: =163
-        OnSelect: =Navigate(Problem_Solution, Transition.Push)
-        RadiusBottomLeft: =100
-        RadiusBottomRight: =100
-        RadiusTopLeft: =100
-        RadiusTopRight: =100
-        Size: =36
-        Text: ="Next"
-        X: =110
-        Y: =1124
-        ZIndex: =13
-
-    Button5 As button:
-        Fill: =RGBA(203, 102, 102, 1)
+    Button9_3 As button:
+        Align: =Center
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =205
         OnSelect: =Back(Transition.None)
-        Text: ="Previous"
-        Y: =1321
-        ZIndex: =14
+        RadiusTopRight: =1000
+        Size: =32
+        Text: ="Back"
+        Width: =195
+        X: =1
+        Y: =1161
+        ZIndex: =15
+
+    Button10_3 As button:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =202
+        OnSelect: =Navigate(Problem_Solution, Transition.Push)
+        RadiusTopLeft: =1000
+        Size: =32
+        Text: ="Next"
+        Width: =194
+        X: =574
+        Y: =1161
+        ZIndex: =16
 
