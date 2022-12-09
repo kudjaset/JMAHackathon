@@ -2,6 +2,13 @@ Tech_used As screen:
     BackgroundImage: =JMA_blank_background
     ImagePosition: =ImagePosition.Stretch
 
+    Image3 As image:
+        Height: =1366
+        Image: ='tech used'
+        Width: =704
+        X: =35
+        ZIndex: =1
+
     Button9_1 As button:
         Align: =Center
         Fill: =RGBA(255, 0, 0, 1)
@@ -35,11 +42,4 @@ Tech_used As screen:
         Text: ="Technology Used"
         Width: =768
         ZIndex: =4
-
-    Image3 As image:
-        Height: =1366
-        Image: ='tech used'
-        Width: =704
-        X: =35
-        ZIndex: =5
 
