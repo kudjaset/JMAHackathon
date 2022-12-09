@@ -2,6 +2,23 @@ Questions_screen As screen:
     BackgroundImage: =JMA_blank_background
     ImagePosition: =ImagePosition.Stretch
 
+    Button14 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 0, 1)
+        Height: =141
+        OnSelect: |-
+            =UpdateContext({dreampopup: true})
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Size: =24
+        Text: ="Finish"
+        Width: =138
+        X: =317
+        Y: =1191
+        ZIndex: =1
+
     Icon11 As icon.QuestionMark:
         Color: =RGBA(255, 255, 0, 1)
         Height: =823
@@ -9,7 +26,7 @@ Questions_screen As screen:
         Width: =545
         X: =114
         Y: =276
-        ZIndex: =1
+        ZIndex: =2
 
     Label25 As label:
         Align: =Center
@@ -20,7 +37,7 @@ Questions_screen As screen:
         Width: =691
         X: =40
         Y: =40
-        ZIndex: =2
+        ZIndex: =3
 
     Button9_2 As button:
         Align: =Center
@@ -32,7 +49,7 @@ Questions_screen As screen:
         Text: ="Back"
         Width: =195
         Y: =1161
-        ZIndex: =3
+        ZIndex: =4
 
     Button10_2 As button:
         Fill: =RGBA(54, 176, 75, 1)
@@ -46,45 +63,54 @@ Questions_screen As screen:
         Width: =194
         X: =573
         Y: =1161
-        ZIndex: =4
-
-    Button14 As button:
-        Height: =141
-        OnSelect: |-
-            =UpdateContext({dreampopup: true})
-        RadiusBottomLeft: =100
-        RadiusBottomRight: =100
-        RadiusTopLeft: =100
-        RadiusTopRight: =100
-        Text: ="Finish"
-        Width: =138
-        X: =317
-        Y: =1191
         ZIndex: =5
 
-    Label27 As label:
-        Align: =Center
-        Fill: =RGBA(102, 182, 227, 1)
-        Font: =Font.'Dancing Script'
-        Height: =1069
-        Size: =44
-        Text: |-
-            ="After all this hard work,
-            
-            it's time to relax in
-            
-            CALIFORNIUM
-            
-            with a cold
-            
-            TENNESSINE whisky
-            
-            LIVERMORIUM the
-            
-            AMERICIUM dream!!"
-        Visible: =dreampopup
-        Width: =623
-        X: =84
-        Y: =90
-        ZIndex: =6
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =8
+
+        Label27 As label:
+            Align: =Center
+            Fill: =RGBA(102, 182, 227, 1)
+            Font: =Font.'Dancing Script'
+            Height: =1069
+            Size: =44
+            Text: |-
+                ="After all this hard work,
+                
+                it's time to relax in
+                
+                CALIFORNIUM
+                
+                with a cold
+                
+                TENNESSINE whisky
+                
+                LIVERMORIUM the
+                
+                AMERICIUM dream!!"
+            Visible: =dreampopup
+            Width: =623
+            X: =84
+            Y: =90
+            ZIndex: =6
+
+        Button14_1 As button:
+            Height: =141
+            OnSelect: |-
+                =Navigate(Presentation_Home, Transition.None);
+                UpdateContext({dreampopup: false});
+            RadiusBottomLeft: =100
+            RadiusBottomRight: =100
+            RadiusTopLeft: =100
+            RadiusTopRight: =100
+            Text: ="Finish"
+            Visible: =dreampopup
+            Width: =138
+            X: =317
+            Y: =1191
+            ZIndex: =7
 

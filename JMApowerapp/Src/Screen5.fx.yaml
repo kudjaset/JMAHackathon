@@ -1,0 +1,70 @@
+Screen5 As screen:
+    BackgroundImage: =JMA_blank_background
+    ImagePosition: =ImagePosition.Stretch
+
+    Label28 As label:
+        Align: =Center
+        Color: =RGBA(204, 231, 246, 1)
+        FontWeight: =Semibold
+        Height: =410
+        Size: =48
+        Text: ="What do all the Songs have in common?"
+        Width: =603
+        X: =84
+        Y: =96
+        ZIndex: =1
+
+    Icon12 As icon.Lightbulb:
+        Height: =552
+        Icon: =Icon.Lightbulb
+        OnSelect: |-
+            =UpdateContext({hitsongs: true})
+        Width: =504
+        X: =133
+        Y: =506
+        ZIndex: =2
+
+    Button9_5 As button:
+        Align: =Center
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =205
+        OnSelect: =Back(Transition.None)
+        RadiusTopRight: =1000
+        Size: =32
+        Text: ="Back"
+        Width: =195
+        Y: =1161
+        ZIndex: =3
+
+    Button10_5 As button:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =202
+        OnSelect: =Navigate(Questions_screen, Transition.None)
+        RadiusTopLeft: =1000
+        Size: =32
+        Text: ="Next"
+        Width: =194
+        X: =573
+        Y: =1161
+        ZIndex: =4
+
+    Label29 As label:
+        Align: =Center
+        Fill: =RGBA(204, 231, 246, 1)
+        FontWeight: =Semibold
+        Height: =608
+        Size: =40
+        Text: |-
+            ="Hit
+            
+            Number
+            
+            1
+            
+            Billboard"
+        Visible: =hitsongs
+        Width: =465
+        X: =156
+        Y: =466
+        ZIndex: =5
+

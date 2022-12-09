@@ -24,7 +24,7 @@ Tech_used As screen:
     Button10_1 As button:
         Fill: =RGBA(54, 176, 75, 1)
         Height: =202
-        OnSelect: =Navigate(Questions_screen, Transition.None)
+        OnSelect: =Navigate(Screen5, Transition.None)
         RadiusTopLeft: =1000
         Size: =32
         Text: ="Next"
